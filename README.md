@@ -95,7 +95,9 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 
 * I then went through my ethnicity column to clean it and get rid of all errors. After which I finally went through each column again one after the other.
 
-By following these steps, I ensured that the data was properly cleaned and preprocessed, setting the stage for meaningful analysis and insights.
+* By following these steps, I ensured that the data was properly cleaned and preprocessed, setting the stage for meaningful analysis and insights.
+
+* After I completed the data cleaning, I was left with 630 rows and 31 columns.
 
 
 ## Data Analysis Techniques
@@ -118,7 +120,7 @@ By applying these data analysis techniques, I was able extract valuable insights
 
 * Female respondents accounted for approximately 25.71% of the total population, while male respondents represented 74.29%.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Respondents%20by%20Gender.png)
-##### Top 5 Job Roles by gender
+##### Respondents by gender
 
 * In terms of sum of average salary, the Data Analyst role topped the list with a total average salary of $21.1M. The "other" category followed with $2.5M, while Data Engineers, Data Scientists, and Business Analysts earned $2.4M, $2.3M, and $0.5M respectively.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20roles%20by%20average%20salary.png)
@@ -159,7 +161,7 @@ By applying these data analysis techniques, I was able extract valuable insights
 
 ## Limitations
 Limitations and assumptions of this project include:
-*Small Sample Size: The project is based on 630 responses, which does not fully represent the entire population of data professionals. 
+* **Small Sample Size:** The project is based on 630 responses, which does not fully represent the entire population of data professionals. 
 
 * **Response Bias:** The respondents' answers may be influenced by social desirability bias or personal motivations, potentially leading to biases in the data.
 
