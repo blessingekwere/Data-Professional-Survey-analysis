@@ -121,7 +121,7 @@ To gain valuable insights from the dataset. Some of the used data analysis techn
 By applying these data analysis techniques, I was able extract valuable insights, make data-driven decisions, and derive actionable recommendations from the dataset at hand.
 
 
-## Findings and Insights
+## Insights
 
 *	The Data Analyst role had the highest number of respondents, totaling 382, followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry.
   
