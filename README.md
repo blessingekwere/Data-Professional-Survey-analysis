@@ -12,7 +12,7 @@ With each row representing an individual's unique story, let's embark on an adve
 
 Despite the modest size of this dataset, we believe that even a small group of voices can ignite a powerful revolution in the world of data. By meticulously documenting our findings, the aim is to inspire data professionals, inform decision-makers, and pave the way for a brighter future in the world of data.
 
-So, let us embark on this exciting expedition, armed with our analytical tools and a thirst for knowledge. Together, we will unravel the untold stories hidden within the data, and unlock the secrets that will shape the future of the data profession. The adventure begins now!
+It is time to embark on this exciting expedition, armed with analytical tools, skills and a thirst for knowledge. Let's unravel the untold stories hidden within the data together, and unlock the secrets that will shape the future of the data profession. The adventure begins now!😄💪
 
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/pics%202.jpg)
 *Photo Source: Google*
