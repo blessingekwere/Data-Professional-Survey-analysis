@@ -2,12 +2,22 @@
 
 ## Project Overview
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Introductory%20pics.jpg)
-##### Photo Source: Google
+* Photo Source: Google
 
-The data professional survey dataset analysis project aims to analyze a comprehensive survey dataset of data professionals. The dataset contains information such as participants' demographics, current roles, career paths, salary details, industry affiliations, programming language preferences, and job satisfaction ratings. The objective of the analysis is to gain insights into the data professional landscape, understand career transitions into data, evaluate job satisfaction factors, and identify key trends and patterns in the industry. The analysis will provide valuable information for professionals, organizations, and stakeholders in the data field, assisting them in making informed decisions, improving work environments, and enhancing career opportunities. 
+
+In the vast world of data professionals, a hidden treasure of insights awaits to be uncovered. The journey begins with a dataset collected from a selected group of data professionals who have willingly shared their experiences and perspectives. Despite the modest number of responses, this collection of data holds the power to reveal valuable patterns and trends that can shape the future of the data industry.
+
+The aim of this analysis project is to delve deep into the minds of data professionals and unravel the mysteries surrounding their roles, challenges, and aspirations. By exploring this dataset, we seek to gain an understanding of the current landscape and dynamics of the data industry. 
+
+With each row representing an individual's unique story, let's embark on an adventure through the vast landscape of data. Different skills ranging from analytical techniques, statistical analysis to visualizations, will be used to extract meaningful insights from the dataset. The objective is not only to uncover trends but also to provide actionable recommendations for individuals, organizations, and the industry as a whole.
+
+Despite the modest size of this dataset, we believe that even a small group of voices can ignite a powerful revolution in the world of data. By meticulously documenting our findings, the aim is to inspire data professionals, inform decision-makers, and pave the way for a brighter future in the realm of data analytics.
+
+So, let us embark on this exciting expedition, armed with our analytical tools and a thirst for knowledge. Together, we will unravel the untold stories hidden within the data, and unlock the secrets that will shape the future of the data profession. The adventure begins now!
 
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/pics%202.jpg)
-##### Photo Source: Google
+* Photo Source: Google
+  
 
 ## Data Description
 The dataset contains 28 columns and 630 rows and contains the following columns:
@@ -43,7 +53,8 @@ The dataset contains 28 columns and 630 rows and contains the following columns:
 The link to the original dataset can be found [here](https://docs.google.com/spreadsheets/d/1rRqkV4wVbFIxWBdYREqcxPxP8ONTnzTb/edit?usp=sharing&ouid=101168326616437085538&rtpof=true&sd=true)
 
 
-## Tool Used: Power BI
+## Tool Used: 
+* Power BI
 
 ## Observation with the data
 The following observations were made in the data
@@ -59,7 +70,7 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(123).png)
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(124).png)
-##### Loading the excel file into Power BI Desktop
+* Loading the excel file into Power BI Desktop
 
 
   * I addressed the issue with the "date taken" column by formatting it to the date data type. However, I encountered errors in some rows. To resolve this, I investigated and identified that changing the regional settings for the file from Nigeria to the United States resolved the problem effectively.
@@ -113,7 +124,7 @@ By applying these data analysis techniques, I was able extract valuable insights
 
 ## Findings and Insights
 
-*	The Data Analyst role had the highest number of respondents, totaling 382, followed by the "other" category which includes various unspecified roles.
+*	The Data Analyst role had the highest number of respondents, totaling 382, followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry.
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20job%20industries%20by%20number%20of%20respondents.png)
 ##### Top 5 Job Roles by number of respondents
@@ -122,15 +133,16 @@ By applying these data analysis techniques, I was able extract valuable insights
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Respondents%20by%20Gender.png)
 ##### Respondents by gender
 
-* In terms of sum of average salary, the Data Analyst role topped the list with a total average salary of $21.1M. The "other" category followed with $2.5M, while Data Engineers, Data Scientists, and Business Analysts earned $2.4M, $2.3M, and $0.5M respectively.
+* In terms of average salary by job role, the Data Analyst role topped the list with a total average salary of $21.1M followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry with $2.5M, while Data Engineers, Data Scientists, and Business Analysts earned $2.4M, $2.3M, and $0.5M respectively.
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20roles%20by%20average%20salary.png)
 ##### Top 5 Job Roles by sum of average salary
 
-* Among the countries, the United States offered the highest total average salary, amounting to $20.3M.
+* Among the countries in terms of average salary, United States topped the list with a total of $20.3M.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20Residence%20countries%20by%20average%20salay.png)
 ##### Top 5 countries by sum of average salary
 
-* The Tech industry attracted the highest number of respondents, with Finance and Healthcare industries following closely behind.
+* The Tech industry attracted the highest number of respondents, followed by the Finance and Healthcare industries.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20job%20industries%20by%20number%20of%20respondents.png)
 ##### Top 5 Industries by number of respondents
 
@@ -142,7 +154,7 @@ By applying these data analysis techniques, I was able extract valuable insights
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Responses%20by%20day.png)
 ##### Responses by day 
 
-*	In terms of age groups, individuals aged 18-34 earned the highest total average salary, totaling $25.08M. This was followed by ages 35-49 with $7.71M. The age groups 50-64, 65-79, and 80-92 earned $0.9M, $0.02M, and $0.02M respectively.
+*	In terms of age categorization, individuals aged 18-34 who were categorized as "Young Adults" earned the highest average salary, totaling $25.08M. This was followed by individuls aged 35-54 who were categorized as "Middle-aged Adults" with $8.62M and then followed by individuls aged 55 and above who were categorized as "Older Adults" with $0.04M
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20by%20age%20range.png)
 ##### Sum of average salary by age range 
 
@@ -172,7 +184,7 @@ Limitations and assumptions of this project include:
 
 ## Recommendation
 Based on the insights obtained from the dataset, the following recommendations can be made:
-*	**Focus on recruiting and retaining data analysts:** With the highest number of respondents in the Data Analyst role, it indicates a strong demand for this skill set. To meet this demand, organizations should invest in recruiting and retaining talented data analysts by offering competitive salaries, growth opportunities, and a supportive work environment.
+*	**Focus on recruiting and retaining data analysts and other data professionals:** In order to address the growing demand for data analysts and foster a collaborative data team, it is crucial to prioritize the recruitment and retention of these professionals. This includes considering the services of other key members such as data engineers, data scientists and other professionals who play integral roles within the data ecosystem. By offering competitive salaries, ample growth prospects, and a supportive work environment, organizations can effectively attract and retain talented individuals, ensuring the success and synergy of the entire data team.
 
 *	**Address the gender imbalance:** While the majority of respondents were male, it is essential to promote diversity and inclusivity in the field of data analysis. Companies can take steps to attract and retain more female professionals by implementing diversity initiatives, providing equal opportunities for career growth, and fostering an inclusive work culture.
 
