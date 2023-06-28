@@ -10,7 +10,7 @@ The aim of this analysis project is to delve deep into the minds of data profess
 
 With each row representing an individual's unique story, let's embark on an adventure through the vast landscape of data. Different skills ranging from analytical techniques, statistical analysis to visualizations, will be used to extract meaningful insights from the dataset. The objective is not only to uncover trends but also to provide actionable recommendations for individuals, organizations, and the industry as a whole.
 
-Despite the modest size of this dataset, we believe that even a small group of voices can ignite a powerful revolution in the world of data. By meticulously documenting our findings, the aim is to inspire data professionals, inform decision-makers, and pave the way for a brighter future in the realm of data analytics.
+Despite the modest size of this dataset, we believe that even a small group of voices can ignite a powerful revolution in the world of data. By meticulously documenting our findings, the aim is to inspire data professionals, inform decision-makers, and pave the way for a brighter future in the world of data.
 
 So, let us embark on this exciting expedition, armed with our analytical tools and a thirst for knowledge. Together, we will unravel the untold stories hidden within the data, and unlock the secrets that will shape the future of the data profession. The adventure begins now!
 
