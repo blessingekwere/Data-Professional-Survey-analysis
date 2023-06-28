@@ -235,7 +235,7 @@ Based on the insights obtained from the dataset, the following recommendations c
 
 In conclusion, the analysis of the dataset provided valuable insights into various aspects of the data industry, including job roles, gender distribution, salary trends, geographic factors, programming language preferences, and job considerations. Despite the limitations of a relatively low number of responses, the findings still offer meaningful implications for organizations and professionals in the field.
 
-The dataset revealed that the Data Analyst role had the highest number of respondents, highlighting the increasing demand for individuals skilled in data analysis. It is crucial for organizations to focus on recruiting and retaining data analysts to meet this demand and leverage their expertise in driving data-driven decision-making.
+The dataset revealed that the Data Analyst role had the highest number of respondents, highlighting the increasing demand for individuals skilled in data analysis. It is crucial for organizations to focus on recruiting and retaining data analysts and other data key professionals to meet this demand and leverage their expertise in driving data-driven decision-making.
 
 The gender distribution showed a male-dominated industry, suggesting the need for concerted efforts to promote diversity and inclusivity. Creating an inclusive work environment and providing equal opportunities for career growth can help attract and retain more female professionals in the data field.
 
