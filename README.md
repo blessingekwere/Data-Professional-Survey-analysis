@@ -2,8 +2,7 @@
 
 ## Project Overview
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Introductory%20pics.jpg)
-* Photo Source: Google
-
+*Photo Source: Google*
 
 In the vast world of data professionals, a hidden treasure of insights awaits to be uncovered. The journey begins with a dataset collected from a selected group of data professionals who have willingly shared their experiences and perspectives. Despite the modest number of responses, this collection of data holds the power to reveal valuable patterns and trends that can shape the future of the data industry.
 
@@ -16,7 +15,7 @@ Despite the modest size of this dataset, we believe that even a small group of v
 So, let us embark on this exciting expedition, armed with our analytical tools and a thirst for knowledge. Together, we will unravel the untold stories hidden within the data, and unlock the secrets that will shape the future of the data profession. The adventure begins now!
 
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/pics%202.jpg)
-* Photo Source: Google
+*Photo Source: Google*
   
 
 ## Data Description
@@ -70,12 +69,12 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(123).png)
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(124).png)
-* Loading the excel file into Power BI Desktop
+*Loading the excel file into Power BI Desktop*
 
 
   * I addressed the issue with the "date taken" column by formatting it to the date data type. However, I encountered errors in some rows. To resolve this, I investigated and identified that changing the regional settings for the file from Nigeria to the United States resolved the problem effectively.
  ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(129).png)
-##### Changing the regional setting for the file to resolve the date error 
+*Changing the regional setting for the file to resolve the date error*
 
 * To ensure clarity and descriptive labeling, I renamed all the columns appropriately, providing a clear understanding of the values they hold.
 
@@ -83,26 +82,26 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 
 * Next, I focused on the "current yearly salary" column (in USD). As the values were entered in ranges, I used a delimiter to split the column into minimum and maximum values. Additionally, I replaced the "k" symbol (representing thousand) in those columns with three zeros.
   ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(126).png)
-  ##### Replacing the "k" in the minimum and maximum salary column after splitting
+*Replacing the "k" in the minimum and maximum salary column after splitting*
 
   * After splitting the column, I noticed that the maximum value column contained null values, indicating that respondents had only provided one value. To address this, I replaced the null values with zero. I then utilized the custom column feature to calculate the average of the maximum and minimum values for each row, adding a new column named "average salary" to the dataset.
 
   ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(131).png)
-  ##### Using custom column command to add another column called "average salary"
+*Using custom column command to add another column called "average salary"*
 
 * Moving on, I encountered null values in columns such as "How Happy are you in your Current Position with the following? (Salary)," "How Happy are you in your Current Position with the following? (Work/Life Balance)," "How Happy are you in your Current Position with the following? (Coworkers)," "How Happy are you in your Current Position with the following? (Management)," "How Happy are you in your Current Position with the following? (Upward Mobility)," and "How Happy are you in your Current Position with the following? (Learning New Things)." I replaced these null values with the respective medians of each entire column.
 
 * In the "job role" column, I replaced the value "Other (specify)" with a blank, leaving only the specified values in the column. If no specified value was present, I input "Not Stated" as a replacement.
 
-* To provide a rating for the columns mentioned in step 7, I employed a conditional column approach. For columns like "How Happy are you in your Current Position with the following? (Salary)," "How Happy are you in your Current Position with the following? (Work/Life Balance)," "How Happy are you in your Current Position with the following? (Coworkers)," "How Happy are you in your Current Position with the following? (Management)," "How Happy are you in your Current Position with the following? (Upward Mobility)," and "How Happy are you in your Current Position with the following? (Learning New Things)," I used the following rating scale: If the selected column value is less than or equal to 2, it is considered "Very Dissatisfied." If the value is less than or equal to 4, it is labeled "Dissatisfied." If the value is less than or equal to 6, it is categorized as "Neutral." If the value is less than or equal to 8, it is regarded as "Satisfied." Otherwise, if the value is greater than 8, it is labeled as "Very Satisfied."
+* To provide a rating for the columns mentioned above, I employed a conditional column approach. For columns like "How Happy are you in your Current Position with the following? (Salary)," "How Happy are you in your Current Position with the following? (Work/Life Balance)," "How Happy are you in your Current Position with the following? (Coworkers)," "How Happy are you in your Current Position with the following? (Management)," "How Happy are you in your Current Position with the following? (Upward Mobility)," and "How Happy are you in your Current Position with the following? (Learning New Things)," I used the following rating scale: If the selected column value is less than or equal to 2, it is considered "Very Dissatisfied." If the value is less than or equal to 4, it is labeled "Dissatisfied." If the value is less than or equal to 6, it is categorized as "Neutral." If the value is less than or equal to 8, it is regarded as "Satisfied." Otherwise, if the value is greater than 8, it is labeled as "Very Satisfied."
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(127).png)
- ##### Using conditional column to add rating columns by using the values in the above listed columns as a condition
+*Using conditional column to add rating columns by using the values in the above listed columns as a condition*
 
 * Lastly, I addressed the "age" column. Observing that the maximum age was 92, I utilized the conditional column approach once again to establish age ranges. The age ranges were defined as follows: Ages 18-34, Ages 35-49, Ages 50-64, Ages 65-79, and Ages 80-92.
 
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(132).png)
-##### Using conditional column to add age range  column
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20by%20age%20category.png)
+*Using conditional column to add age category column*
 
 * I then went through my ethnicity column to clean it and get rid of all errors. After which I finally went through each column again one after the other.
 
@@ -127,49 +126,52 @@ By applying these data analysis techniques, I was able extract valuable insights
 *	The Data Analyst role had the highest number of respondents, totaling 382, followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry.
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20job%20industries%20by%20number%20of%20respondents.png)
-##### Top 5 Job Roles by number of respondents
+*Top 5 Job Roles by number of respondents*
 
 * Female respondents accounted for approximately 25.71% of the total population, while male respondents represented 74.29%.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Respondents%20by%20Gender.png)
-##### Respondents by gender
+*Respondents by gender*
 
 * In terms of average salary by job role, the Data Analyst role topped the list with a total average salary of $21.1M followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry with $2.5M, while Data Engineers, Data Scientists, and Business Analysts earned $2.4M, $2.3M, and $0.5M respectively.
   
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20roles%20by%20average%20salary.png)
-##### Top 5 Job Roles by sum of average salary
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20based%20on%20top%205%20roles.png)
+*Average Salary by Top 5 Job Roles*
 
 * Among the countries in terms of average salary, United States topped the list with a total of $20.3M.
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20Residence%20countries%20by%20average%20salay.png)
-##### Top 5 countries by sum of average salary
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20based%20on%20Top%205%20Countries.png)
+*Average Salary by Top 5 Countries*
 
 * The Tech industry attracted the highest number of respondents, followed by the Finance and Healthcare industries.
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20job%20industries%20by%20number%20of%20respondents.png)
-##### Top 5 Industries by number of respondents
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Number%20of%20respondents%20based%20on%20Top%205%20job%20Industries.png)
+*Number of respondents by Top 5 Job Industry*
 
 * Python programming language emerged as the most preferred language among respondents, followed by R and SQL.
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Favorite%20programming%20language.png)
-##### Top 5 favorite programming languages 
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20Favorite%20programming%20Languages.png)
+*Top 5 favorite programming languages*
 
 * The number of responses steadily decreased each day. The first day recorded the highest number of responses, reaching 347.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Responses%20by%20day.png)
-##### Responses by day 
+*Responses by day*
 
 *	In terms of age categorization, individuals aged 18-34 who were categorized as "Young Adults" earned the highest average salary, totaling $25.08M. This was followed by individuls aged 35-54 who were categorized as "Middle-aged Adults" with $8.62M and then followed by individuls aged 55 and above who were categorized as "Older Adults" with $0.04M
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20by%20age%20range.png)
-##### Sum of average salary by age range 
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20Salary%20based%20on%20Age%20Category.png)
+*Average Salary based on Age Category*
 
-*	Analyzing the count of salary satisfaction ratings, the visual representation shows that the majority of respondents were very dissatisfied, with a count of 176. This was followed by respondents who were dissatisfied, totaling 164. The neutral, satisfied, and very satisfied categories had counts of 133, 119, and 38 respectively.
+* Analyzing the count of salary satisfaction ratings, the visual representation shows that the majority of respondents were very dissatisfied, with a count of 176. This was followed by respondents who were dissatisfied, totaling 164. The neutral, satisfied, and very satisfied categories had counts of 133, 119, and 38 respectively.
+
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Salary%20satisfaction%20rating)
-##### Salary satisfaction rating
+*Salary satisfaction rating*
+
 
 * When considering key job considerations, a better salary emerged as the top priority for most respondents. Remote work conditions ranked second, followed by a good work/life balance and a positive work culture.
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%204%20Key%20job%20consideration.png)
-##### Top four key job consideration
+*Top four key job consideration*
 
 
 ## Visualization
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Dashboard.jpg)
-##### Data professionals survey dashboard
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Dashboard%202.jpg)
+*Data professionals survey dashboard*
 
 ## Limitations
 Limitations and assumptions of this project include:
