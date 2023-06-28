@@ -118,6 +118,7 @@ To gain valuable insights from the dataset. Some of the used data analysis techn
 * Data Aggregation
 * Data Cleaning and Preprocessing
 * Data Interpretation and Communication
+  
 By applying these data analysis techniques, I was able extract valuable insights, make data-driven decisions, and derive actionable recommendations from the dataset at hand.
 
 
@@ -172,7 +173,7 @@ By applying these data analysis techniques, I was able extract valuable insights
 
 
 
-*	In terms of age categorization, individuals aged 18-34 who were categorized as "Young Adults" earned the highest average salary, totaling $25.08M. This was followed by individuls aged 35-54 who were categorized as "Middle-aged Adults" with $8.62M and then followed by individuls aged 55 and above who were categorized as "Older Adults" with $0.04M
+*	In terms of age categorization, individuals aged 18-34 who were categorized as "Young Adults" earned the highest average salary, totaling $25.08M. This was followed by individuls aged 35-54 who were categorized as "Middle-aged Adults" with $8.62M and then followed by individuls aged 55 and above who were categorized as "Older Adults" with $0.04M.
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20Salary%20based%20on%20Age%20Category.png)
 
