@@ -72,8 +72,8 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 *Loading the excel file into Power BI Desktop*
 
 
-  * I addressed the issue with the "date taken" column by formatting it to the date data type. However, I encountered errors in some rows. To resolve this, I investigated and identified that changing the regional settings for the file from Nigeria to the United States resolved the problem effectively.
- ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(129).png)
+* I addressed the issue with the "date taken" column by formatting it to the date data type. However, I encountered errors in some rows. To resolve this, I investigated and identified that changing the regional settings for the file from Nigeria to the United States resolved the problem effectively.
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(129).png)
 *Changing the regional setting for the file to resolve the date error*
 
 * To ensure clarity and descriptive labeling, I renamed all the columns appropriately, providing a clear understanding of the values they hold.
@@ -81,12 +81,12 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 * Since the columns for email, browser, OS, city, country, and referrer were all empty and wouldn't contribute to my analysis, I removed them from the dataset.
 
 * Next, I focused on the "current yearly salary" column (in USD). As the values were entered in ranges, I used a delimiter to split the column into minimum and maximum values. Additionally, I replaced the "k" symbol (representing thousand) in those columns with three zeros.
-  ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(126).png)
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(126).png)
 *Replacing the "k" in the minimum and maximum salary column after splitting*
 
-  * After splitting the column, I noticed that the maximum value column contained null values, indicating that respondents had only provided one value. To address this, I replaced the null values with zero. I then utilized the custom column feature to calculate the average of the maximum and minimum values for each row, adding a new column named "average salary" to the dataset.
+* After splitting the column, I noticed that the maximum value column contained null values, indicating that respondents had only provided one value. To address this, I replaced the null values with zero. I then utilized the custom column feature to calculate the average of the maximum and minimum values for each row, adding a new column named "average salary" to the dataset.
 
-  ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(131).png)
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(131).png)
 *Using custom column command to add another column called "average salary"*
 
 * Moving on, I encountered null values in columns such as "How Happy are you in your Current Position with the following? (Salary)," "How Happy are you in your Current Position with the following? (Work/Life Balance)," "How Happy are you in your Current Position with the following? (Coworkers)," "How Happy are you in your Current Position with the following? (Management)," "How Happy are you in your Current Position with the following? (Upward Mobility)," and "How Happy are you in your Current Position with the following? (Learning New Things)." I replaced these null values with the respective medians of each entire column.
@@ -126,55 +126,85 @@ By applying these data analysis techniques, I was able extract valuable insights
 *	The Data Analyst role had the highest number of respondents, totaling 382, followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry.
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20job%20industries%20by%20number%20of%20respondents.png)
+
 *Top 5 Job Roles by number of respondents*
 
 * Female respondents accounted for approximately 25.71% of the total population, while male respondents represented 74.29%.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Respondents%20by%20Gender.png)
+
 *Respondents by gender*
+
 
 * In terms of average salary by job role, the Data Analyst role topped the list with a total average salary of $21.1M followed by the "other" category which includes different unspecified roles which were not indicated at the point of data entry with $2.5M, while Data Engineers, Data Scientists, and Business Analysts earned $2.4M, $2.3M, and $0.5M respectively.
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20based%20on%20top%205%20roles.png)
+
 *Average Salary by Top 5 Job Roles*
 
+
 * Among the countries in terms of average salary, United States topped the list with a total of $20.3M.
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20based%20on%20Top%205%20Countries.png)
+
 *Average Salary by Top 5 Countries*
 
+
 * The Tech industry attracted the highest number of respondents, followed by the Finance and Healthcare industries.
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Number%20of%20respondents%20based%20on%20Top%205%20job%20Industries.png)
+
 *Number of respondents by Top 5 Job Industry*
 
+
 * Python programming language emerged as the most preferred language among respondents, followed by R and SQL.
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%205%20Favorite%20programming%20Languages.png)
+
 *Top 5 favorite programming languages*
+
 
 * The number of responses steadily decreased each day. The first day recorded the highest number of responses, reaching 347.
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Responses%20by%20day.png)
+
 *Responses by day*
 
+
+
 *	In terms of age categorization, individuals aged 18-34 who were categorized as "Young Adults" earned the highest average salary, totaling $25.08M. This was followed by individuls aged 35-54 who were categorized as "Middle-aged Adults" with $8.62M and then followed by individuls aged 55 and above who were categorized as "Older Adults" with $0.04M
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20Salary%20based%20on%20Age%20Category.png)
+
 *Average Salary based on Age Category*
+
+
 
 * Analyzing the count of salary satisfaction ratings, the visual representation shows that the majority of respondents were very dissatisfied, with a count of 176. This was followed by respondents who were dissatisfied, totaling 164. The neutral, satisfied, and very satisfied categories had counts of 133, 119, and 38 respectively.
 
-![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Salary%20satisfaction%20rating)
+![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Salary%20satisfaction%20rating.png)
+
 *Salary satisfaction rating*
+
+
 
 
 * When considering key job considerations, a better salary emerged as the top priority for most respondents. Remote work conditions ranked second, followed by a good work/life balance and a positive work culture.
   
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Top%204%20Key%20job%20consideration.png)
+
 *Top four key job consideration*
+
 
 
 ## Visualization
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Dashboard%202.jpg)
+
 *Data professionals survey dashboard*
 
+
 ## Limitations
+
 Limitations and assumptions of this project include:
+
 * **Small Sample Size:** The project is based on 630 responses, which does not fully represent the entire population of data professionals. 
 
 * **Response Bias:** The respondents' answers may be influenced by social desirability bias or personal motivations, potentially leading to biases in the data.
@@ -188,7 +218,7 @@ Limitations and assumptions of this project include:
 Based on the insights obtained from the dataset, the following recommendations can be made:
 *	**Focus on recruiting and retaining data analysts and other data professionals:** In order to address the growing demand for data analysts and foster a collaborative data team, it is crucial to prioritize the recruitment and retention of these professionals. This includes considering the services of other key members such as data engineers, data scientists and other professionals who play integral roles within the data ecosystem. By offering competitive salaries, ample growth prospects, and a supportive work environment, organizations can effectively attract and retain talented individuals, ensuring the success and synergy of the entire data team.
 
-*	**Address the gender imbalance:** While the majority of respondents were male, it is essential to promote diversity and inclusivity in the field of data analysis. Companies can take steps to attract and retain more female professionals by implementing diversity initiatives, providing equal opportunities for career growth, and fostering an inclusive work culture.
+*	**Address the gender imbalance:** While the majority of respondents were male, it is essential to promote diversity and inclusivity in all fields of data. Companies can take steps to attract and retain more female professionals by implementing diversity initiatives, providing equal opportunities for career growth, and fostering an inclusive work culture.
 
 *	**Explore opportunities in "other" roles:** The "other" category, comprising unspecified roles, had a notable number of respondents. It could indicate a potential area for further exploration and understanding of emerging roles in the data field. Organizations can investigate these roles to identify emerging trends and skill requirements to stay ahead in the industry.
 
