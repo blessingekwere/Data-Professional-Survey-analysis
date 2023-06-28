@@ -130,6 +130,7 @@ By applying these data analysis techniques, I was able extract valuable insights
 *Top 5 Job Roles by number of respondents*
 
 * Female respondents accounted for approximately 25.71% of the total population, while male respondents represented 74.29%.
+* 
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Respondents%20by%20Gender.png)
 
 *Respondents by gender*
