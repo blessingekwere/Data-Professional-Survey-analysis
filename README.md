@@ -98,8 +98,8 @@ For the data cleaning and preprocessing step in the data professional dataset, I
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Screenshot%20(127).png)
 *Using conditional column to add rating columns by using the values in the above listed columns as a condition*
 
-* Lastly, I addressed the "age" column. Observing that the maximum age was 92, I utilized the conditional column approach once again to establish age ranges. The age ranges were defined as follows: Ages 18-34, Ages 35-49, Ages 50-64, Ages 65-79, and Ages 80-92.
-
+* Lastly, I addressed the "age" column. Observing that the maximum age was 92, I utilized the conditional column approach once again to establish age categories. The age cateogories were defined as follows: Ages 18-34 were categorized as "Young Adults", Ages 18-34 were categorized as "Middle-aged Adults", and Ages 55 and above were categorized as "Older Adults".
+  
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Average%20salary%20by%20age%20category.png)
 *Using conditional column to add age category column*
 
