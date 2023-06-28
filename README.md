@@ -4,7 +4,7 @@
 ![](https://github.com/blessingekwere/Data-Professional-Survey-analysis/blob/main/Introductory%20pics.jpg)
 *Photo Source: Google*
 
-In the vast world of data professionals, a hidden treasure of insights awaits to be uncovered. The journey begins with a dataset collected from a selected group of data professionals who have willingly shared their experiences and perspectives. Despite the modest number of responses, this collection of data holds the power to reveal valuable patterns and trends that can shape the future of the data industry.
+In the vast world of data, a hidden treasure of insights awaits to be uncovered. The journey begins with a dataset collected from a selected group of data professionals who have willingly shared their experiences and perspectives. Despite the modest number of responses, this collection of data holds the power to reveal valuable patterns and trends that can shape the future of the data industry.
 
 The aim of this analysis project is to delve deep into the minds of data professionals and unravel the mysteries surrounding their roles, challenges, and aspirations. By exploring this dataset, we seek to gain an understanding of the current landscape and dynamics of the data industry. 
 
